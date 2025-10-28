@@ -6,7 +6,9 @@
 body {
   line-height: 1;
   font-size: 16px;
-  color: #343a40;
+  color: #555;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
 }
 button {
   border: none;
