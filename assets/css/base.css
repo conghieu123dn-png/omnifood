@@ -20,3 +20,47 @@ button {
   display: flex;
   align-items: center;
 }
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  line-height: 1.05;
+  color: #333;
+  /* color: #45260a; */
+  letter-spacing: -0.5px;
+}
+.heading-primary {
+  font-size: 3.25rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.heading-secondary {
+  font-size: 2.75rem;
+  line-height: 1.2;
+  margin-bottom: 6rem;
+}
+.subheading {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 0.75px;
+}
+.grid {
+  display: grid;
+  column-gap: 4rem;
+  row-gap: 6rem;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4 1fr);
+}
+.grid--center-v {
+  align-items: center;
+}
