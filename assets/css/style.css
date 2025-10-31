@@ -206,4 +206,5 @@
   height: 2rem;
   filter: brightness(0);
   opacity: 50%;
+  object-fit: cover;
 }
