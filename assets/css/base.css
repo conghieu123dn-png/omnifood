@@ -23,12 +23,14 @@ button {
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
-  line-height: 1.05;
   color: #333;
-  /* color: #45260a; */
   letter-spacing: -0.5px;
 }
+.heading-tertiary {
+  line-height: 1.05;
+}
 .heading-primary {
+  line-height: 1.05;
   font-size: 3.25rem;
   font-weight: 700;
   margin-bottom: 2rem;
