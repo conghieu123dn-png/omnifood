@@ -217,11 +217,6 @@
   grid-template-columns: 55fr 45fr;
   align-items: center;
 }
-.heading-secondary {
-  font-size: 2.75rem;
-  line-height: 1.2;
-  margin-bottom: 6rem;
-}
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
