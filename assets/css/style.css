@@ -361,3 +361,109 @@ strong {
   transform: translateY(-0.75rem);
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.06);
 }
+.section-pricing {
+  padding: 6rem 0;
+}
+
+.princing-plan {
+  border-radius: 0.75rem;
+
+  width: 75%;
+}
+
+.princing-plan--starter {
+  justify-self: end;
+  border: 2px solid #fdf2e9;
+  padding: 2.875rem;
+}
+
+.princing-plan--complete {
+  background-color: #fdf2e9;
+  padding: 3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.princing-plan--complete::after {
+  content: "Best value";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #ffd43b;
+  padding: 0.5rem 5rem;
+  transform: rotate(45deg);
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.plan-name {
+  color: #cf711f;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 2rem;
+}
+
+.plan-price {
+  font-size: 3.875rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.plan-price span {
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.plan-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #6f6f6f;
+}
+
+.plan-sing-up {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.plan-details {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.feature-icon {
+  color: #e67e22;
+  height: 3rem;
+  width: 3rem;
+  background-color: #fdf2e9;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.feature-text {
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
