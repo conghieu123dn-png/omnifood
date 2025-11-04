@@ -69,3 +69,7 @@ button {
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
 }
+.footer {
+  border-top: 1px solid #eee;
+  padding: 8rem 0;
+}
