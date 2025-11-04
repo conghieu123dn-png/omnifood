@@ -475,7 +475,7 @@ strong {
   display: grid;
   grid-template-columns: 2fr 1fr;
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.15);
-  border-radius: 0.75px;
+  border-radius: 0.75rem;
 
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
@@ -559,10 +559,6 @@ strong {
 
 .cta-form input::placeholder {
   color: #aaa;
-}
-*:focus {
-  outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 .cta *:focus {
   outline: none;
