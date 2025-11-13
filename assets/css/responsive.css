@@ -1,0 +1,245 @@
+/* 1024px */
+@media (max-width: 64rem) {
+  .hero {
+    max-width: 120rem;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+  .delivered-meals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .icon-mobile-nav[name="close-outline"] {
+    display: none;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.875rem;
+  }
+  .heading-primary {
+    font-size: 2.75rem;
+  }
+  .heading-description {
+    font-size: 1.125rem;
+  }
+  .testimonials-container {
+    padding: 6rem 2rem;
+  }
+  .hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 6rem;
+    place-items: center;
+    padding-top: 3rem;
+  }
+  .grid--footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .logos {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+/* 768px */
+@media (max-width: 48rem) {
+  .grid {
+    column-gap: 1.875rem;
+    row-gap: 2.5rem;
+  }
+  .hero {
+    padding: 0 1.125rem;
+  }
+  .heading-primary {
+    font-size: 2rem;
+  }
+  .heading-tertiary {
+    font-size: 1.125rem;
+  }
+  .pricing-plan {
+    width: 100%;
+  }
+
+  .header {
+    padding: 0 1.125rem;
+  }
+  .main-nav-list {
+    gap: 1.125rem;
+  }
+  .hero {
+    gap: 1.875rem;
+  }
+  .testimonials-container {
+    padding: 3.75rem 1.125rem;
+  }
+  .logos {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4rem;
+  }
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid {
+    column-gap: 2.5rem;
+    row-gap: 3.5 rem;
+  }
+
+  .cta-img-box {
+    display: none;
+  }
+  .cta {
+    display: flex;
+    width: 100%;
+  }
+}
+/* 640px */
+@media (max-width: 40rem) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 1.125rem;
+    gap: 4rem;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .step-number {
+    font-size: 3.75rem;
+  }
+  .meal-content {
+    padding: 1.5rem 2rem 2rem;
+  }
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .btn--form {
+    margin-top: 1.2rem;
+  }
+  .grid--2-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+  }
+  .logos img {
+    max-width: 100%;
+  }
+  .step-text-box-1 {
+    order: 1;
+  }
+  .step-img-box-2 {
+    order: 2;
+  }
+  .step-img-box-3 {
+    order: 4;
+  }
+  .step-text-box-4 {
+    order: 3;
+  }
+  .step-text-box-5 {
+    order: 5;
+  }
+  .step-img-box-6 {
+    order: 6;
+  }
+  .btn--full {
+    width: 100%;
+  }
+  .grid--4-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid--footer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* 448px */
+@media (max-width: 28rem) {
+  .delivered-meals {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .delivered-imgs {
+    display: flex;
+    justify-content: center;
+  }
+  .hero-actions {
+    display: grid;
+    row-gap: 1rem;
+    max-width: 12.5rem;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cta .heading-secondary {
+    font-size: 1.75rem;
+  }
+}

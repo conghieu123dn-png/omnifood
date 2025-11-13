@@ -12,35 +12,42 @@
     />
     <link rel="stylesheet" href="assets/css/base.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
   <body>
     <header class="header">
-      <img
-        class="logo"
-        src="assets/img/omnifood-logo.png"
-        alt="Omnifood logo"
-      />
+      <a href="#">
+        <img
+          class="logo"
+          src="assets/img/omnifood-logo.png"
+          alt="Omnifood logo"
+        />
+      </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li>
-            <a class="main-nav-link" href="#">Section 1</a>
+            <a class="main-nav-link" href="#">How it works</a>
           </li>
           <li>
-            <a class="main-nav-link" href="#">Section 2</a>
+            <a class="main-nav-link" href="#">Meals</a>
           </li>
           <li>
-            <a class="main-nav-link" href="#">Section 3</a>
+            <a class="main-nav-link" href="#">Testimonials</a>
           </li>
-          <li><a class="main-nav-link" href="#">Section 4</a></li>
+          <li><a class="main-nav-link" href="#">Pricing</a></li>
 
           <li>
-            <a class="main-nav-link nav-cta" href="#">Section 5</a>
+            <a class="main-nav-link nav-cta" href="#">Try for free</a>
           </li>
         </ul>
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
-    <main>
+    <main class="main-content">
       <section class="section-hero">
         <div class="hero">
           <div class="hero-text-box">
@@ -52,10 +59,10 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
-              >Star eating well</a
-            >
-            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            <div class="hero-actions">
+              <a href="#" class="btn btn--full">Star eating well</a>
+              <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            </div>
             <div class="delivered-meals">
               <div class="delivered-imgs">
                 <img
@@ -124,7 +131,7 @@
         </div>
 
         <div class="container grid grid--2-cols grid--center-v">
-          <div class="step-text-box">
+          <div class="step-text-box step-text-box-1">
             <p class="step-number">01</p>
             <h3 class="heading-tertiary">
               Tell us what you like (and what not)
@@ -136,21 +143,21 @@
               matter what diet you follow!
             </p>
           </div>
-          <div class="step-img-box">
+          <div class="step-img-box step-img-box-2">
             <img
               src="assets/img/app/app-screen-1.png"
               class="step-img"
               alt="Iphone app preferences section app-screen"
             />
           </div>
-          <div class="step-img-box">
+          <div class="step-img-box step-img-box-3">
             <img
               src="assets/img/app/app-screen-2.png"
               class="step-img"
               alt="Iphone app meal apprving plan screen"
             />
           </div>
-          <div class="step-text-box">
+          <div class="step-text-box step-text-box-4">
             <p class="step-number">02</p>
             <h3 class="heading-tertiary">Approve your weekly meal plan</h3>
             <p class="step-description">
@@ -159,7 +166,7 @@
               your own recipes.
             </p>
           </div>
-          <div class="step-text-box">
+          <div class="step-text-box step-text-box-5">
             <p class="step-number">03</p>
             <h3 class="heading-tertiary">Receive meals at convenient time</h3>
             <p class="step-description">
@@ -168,7 +175,7 @@
               change delivery schedule and address daily!
             </p>
           </div>
-          <div class="step-img-box">
+          <div class="step-img-box step-img-box-6">
             <img
               src="assets/img/app/app-screen-3.png"
               class="step-img"
@@ -247,7 +254,7 @@
               </ul>
             </div>
           </div>
-          <div>
+          <div class="diets">
             <h3 class="heading-tertiary">Works with any diet:</h3>
             <ul class="list">
               <li class="list-item">
@@ -444,7 +451,7 @@
         </div>
 
         <div class="container grid grid--2-cols margin-bottom-md">
-          <div class="princing-plan princing-plan--starter">
+          <div class="pricing-plan pricing-plan--starter">
             <header class="plan-header">
               <p class="plan-name">Starter</p>
               <p class="plan-price"><span>$</span>399</p>
@@ -472,7 +479,7 @@
             </div>
           </div>
 
-          <div class="princing-plan princing-plan--complete">
+          <div class="pricing-plan pricing-plan--complete">
             <header class="plan-header">
               <p class="plan-name">Complete</p>
               <p class="plan-price"><span>$</span>649</p>

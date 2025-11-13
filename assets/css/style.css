@@ -8,7 +8,8 @@
   justify-content: space-between;
   background-color: #fdf2e9;
   height: 6rem;
-  padding: 0 3rem;
+  padding: 0 2rem;
+  position: relative;
 }
 .logo {
   height: 1.375rem;
@@ -75,6 +76,11 @@
 .section-hero {
   background-color: #fdf2e9;
   padding: 3rem 0 6rem;
+}
+.hero-actions {
+  display: flex;
+
+  gap: 1rem;
 }
 .btn:link,
 .btn:visited {
@@ -363,27 +369,26 @@ strong {
 .section-pricing {
   padding: 6rem 0;
 }
-.princing-plan {
+.pricing-plan {
   border-radius: 0.75rem;
   width: 75%;
 }
-.princing-plan--starter {
+.pricing-plan--starter {
   justify-self: end;
   border: 2px solid #fdf2e9;
   padding: 2.875rem;
 }
-.princing-plan--complete {
+.pricing-plan--complete {
   background-color: #fdf2e9;
-  padding: 3rem;
+  padding: 2.875rem;
   position: relative;
   overflow: hidden;
 }
-.princing-plan--complete::after {
+.pricing-plan--complete::after {
   content: "Best value";
   position: absolute;
   top: 6%;
   right: -18%;
-
   text-transform: uppercase;
   font-size: 0.875rem;
   font-weight: 700;
@@ -597,4 +602,16 @@ strong {
 .footer-link:hover,
 .footer-link:active {
   color: #555;
+}
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #333;
 }
