@@ -138,21 +138,7 @@
     display: flex;
     width: 100%;
   }
-  /* .grid--2-cols {
-    grid-template-columns: repeat(1, 1fr);
-  } */
-  /* .pricing-plan--starter,
-  .pricing-plan--complete {
-    margin-right: auto;
-    margin-left: auto;
-  } */
 }
-/* @media (max-width: 56rem) {
-  .grid--footer {
-    grid-template-columns: repeat(3, 1fr);
-  }
-} */
-
 /* 640px */
 @media (max-width: 40rem) {
   .hero {
