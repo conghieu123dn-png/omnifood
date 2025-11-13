@@ -212,9 +212,7 @@
   .step-img-box-6 {
     order: 6;
   }
-  .btn--full {
-    width: 100%;
-  }
+
   .grid--4-cols {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -241,5 +239,11 @@
   }
   .cta .heading-secondary {
     font-size: 1.75rem;
+  }
+  .btn--full {
+    width: 100%;
+  }
+  .btn--outline {
+    width: 100%;
   }
 }
