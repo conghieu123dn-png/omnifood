@@ -608,6 +608,8 @@ strong {
   background: none;
   cursor: pointer;
   display: none;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .icon-mobile-nav {
