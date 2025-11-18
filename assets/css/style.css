@@ -43,7 +43,7 @@
 }
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  color: #cf711f;
+  background-color: #cf711f;
 }
 .container {
   max-width: 75rem;
