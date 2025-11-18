@@ -33,7 +33,7 @@
     visibility: hidden;
   }
   .btn-mobile-nav {
-    display: block;
+    display: flex;
   }
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
